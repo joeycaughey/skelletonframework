@@ -1,0 +1,63 @@
+
+div.one-column-layout { }
+div.one-column-layout div.column { }
+div.one-column-layout div.column.first { }
+
+div.one-column-middle-nav-left-layout { }
+div.one-column-middle-nav-left-layout div.column { float: left; margin: 0; min-height: 400px; }
+div.one-column-middle-nav-left-layout div.column.first { width: 100px; }
+div.one-column-middle-nav-left-layout div.column.last { width: 390px; }
+
+div.two-column-layout { }
+div.two-column-layout div.column { float: left; width: 48%; margin-left: 4%; }
+div.two-column-layout div.column.first { margin-left: 0; }
+
+
+div.two-column-custom-layout { }
+div.two-column-custom-layout div.column { float: left; width: 33%; margin-left: 4%; }
+div.two-column-custom-layout div.column.first { margin-left: 0; width: 63%; }
+
+div.two-column-custom-layout div.column div.two-column-offset-right-layout { }
+div.two-column-custom-layout div.column div.two-column-offset-right-layout div.column { float: left; width: 20%; margin-left: 7%; }
+div.two-column-custom-layout div.column div.two-column-offset-right-layout div.column.first { width: 65%; margin-left: 0; }
+
+div.three-column-layout { }
+div.three-column-layout div.column { float: left; width: 32%; margin-left: 1%; }
+div.three-column-layout div.column.first { margin-left: 0; }
+
+div.two-column-offset-left-layout { }
+div.two-column-offset-left-layout  div.column { float: left; width: 587px; margin-left: 0%; }
+div.two-column-offset-left-layout  div.column.first { width: 352px; margin-left: 0; }
+
+div.two-column-offset-left-layout  div.column div.two-column-layout { }
+div.two-column-offset-left-layout  div.column div.two-column-layout div.column { float: left; width: 48%; margin-left: 4%; }
+div.two-column-offset-left-layout  div.column div.two-column-layout div.column.first { margin-left: 0; }
+
+div.two-column-offset-right-layout { }
+div.two-column-offset-right-layout div.column { float: left; width: 34%; margin-left: 0%; height: 100%; }
+div.two-column-offset-right-layout div.column.first { width: 58%; margin-left: 0; }
+
+div.two-column-offset-right-layout div.two-column-layout { }
+div.two-column-offset-right-layout div.two-column-layout div.column { float: left; width: 48%; margin-left: 4%; }
+div.two-column-offset-right-layout div.two-column-layout div.column.first { margin-left: 0; }
+
+div.two-column-right-nav-layout { }
+div.two-column-right-nav-layout div.column { float: left; width: 352px; marign-left: 0; }
+div.two-column-right-nav-layout div.column.middle { min-height: 400px; }
+div.two-column-right-nav-layout div.column.last { width: 118px; }
+
+
+div.two-column-padded-left-layout { }
+div.two-column-padded-left-layout div.column { float: left; width: 352px; marign-left: 0; }
+div.two-column-padded-left-layout div.column.first { margin-left: 100px; }
+div.two-column-padded-left-layout div.column.last { min-height: 400px;   }
+
+
+div.three-column-layout { }
+div.three-column-layout div.column { float: left; width: 33%; margin-left: 0; }
+div.three-column-layout div.column.first { margin-left: 0; }
+
+
+div.four-column-layout { }
+div.four-column-layout div.column { float: left; width: 24%; margin-left: 1%; }
+div.four-column-layout div.column.first { margin-left: 0; width: 25%; }

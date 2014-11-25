@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+
+
+ul.social-icons li {
+	float: left;
+}
+
+ul.social-icons li a  {
+	display: block;
+	width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+ul.social-icons li.twitter a {
+    background: url('../images/social-icons.png') 0px 0px no-repeat;
+}
+
+ul.social-icons li.facebook a {
+    background: url('../images/social-icons.png') -40px 0px no-repeat;
+}
+
+ul.social-icons li.youtube a {
+    background: url('../images/social-icons.png') -80px 0px no-repeat;
+}
+
+ul.social-icons li.vimeo a {
+    background: url('../images/social-icons.png') -120px 0px no-repeat;
+}
+
+/*** Link Icons ***/
+
+a.icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    margin-top: -10px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+a.icon.twitter {
+     background: url('../images/social-icons.png') 0px 0px no-repeat;
+}
+
+a.icon.facebook {
+     background: url('../images/social-icons.png') -40px 0px no-repeat;
+}
+
+a.icon.youtube {
+     background: url('../images/social-icons.png') -80px 0px no-repeat;
+}
+
+a.icon.vimeo {
+     background: url('../images/social-icons.png') -120px 0px no-repeat;
+}

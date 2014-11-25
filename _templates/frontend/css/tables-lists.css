@@ -1,0 +1,436 @@
+
+/****************************************
+** Base List Styles
+****************************************/
+
+ul.clear, ol.clear {
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+ul.float li, ol.float li {
+    float: left;    
+}
+
+li.right {
+    float: right;   
+}
+
+ul.two-column li {
+    float: left;
+    width: 48%; 
+    margin-right: 2%;
+}
+
+/****************************************
+** Standard Table Styles
+****************************************/
+
+table.standard tr td, table.standard tr th {
+    padding: 3px;
+    border-bottom: solid 1px #999;
+    padding-left: 5px;
+    
+}
+
+table.standard tr.header th {
+    background: #007fb0;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: none;
+}   
+
+
+table.standard tr td button {
+    background: #007fb0;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 10px;
+}
+
+td.active {
+    color: #00cc00;
+    font-weight: bold;
+}
+
+td.disabled {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+td.pending {
+    color: #999999;
+    font-weight: bold;
+}
+
+/****************************************
+** Pagination Styles
+****************************************/
+
+ul.pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    
+    /* Horizantal Float */
+    float:left;
+    position:relative;
+    left:50%;
+    text-align:center;
+    clear:left;
+}
+
+ul.pagination li {
+    padding: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    /* Horizantal Float */
+    display:block;
+    position:relative;
+    right:50%;
+}
+
+ul.pagination li a {
+    border: solid 1px #f3f3f3;
+    color: #999999;
+    background: #fff;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul.pagination li:hover a {
+    border: solid 1px #999999;
+}
+
+ul.pagination li.on a {
+    background: #f3f3f3;
+}
+
+
+/****************************************
+** Profiles Styles
+****************************************/
+ul.profile {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+  
+}
+
+ul.profile li {
+    float: left;
+    margin-right: 3px;  
+    margin-top: 3px;
+}
+
+ul.profile > li > ol > li.details div.name {
+    color: #f67bb4;
+}
+
+ul.profile > li > ol > li.details div.name span {
+    float: right;
+    color: #a8a8a8;
+}
+
+div.name span {
+    float: right;     
+}
+
+/****************************************
+** Profiles Styles - Quick Feature
+****************************************/
+
+ul.profile.quick-feature-list li {
+    width: 24%;
+    margin: 0.5%;
+    position: relative;
+}
+
+ul.profile.quick-feature-list.long li {
+    width: 19%;
+    margin: 0.5%;
+    position: relative;
+}
+
+ul.profile.quick-feature-list li div.name {
+    width: 94%;
+    position: absolute;
+    bottom: 5px;
+    background: url('../images/bknd-black-transparant.png') repeat; 
+    padding: 2%;
+    padding-left: 4%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/****************************************
+** Profiles Styles - Thumbs 
+****************************************/
+
+ul.profile.thumbs > li {
+    width: 24%;
+    margin: 0.5%;
+    margin-bottom: 30px;
+}
+
+/****************************************
+** Profiles Styles - Thumbs Detailed Grid
+****************************************/
+
+ul.profile.thumbs.detailed {
+    
+}
+
+ul.profile.thumbs.detailed > li {
+    width: 21%;
+    margin: 0.5%;
+    border: solid 2px #f4f4f4;
+    border-radius: 3px;
+    -moz-border-radius: 3px;    
+    padding: 1%;
+    font-size: 12px;
+}
+
+ul.profile.thumbs.detailed > li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+}
+
+ul.profile.thumbs.detailed li ul li {
+    float: left;    
+}
+
+ul.profile.thumbs.detailed > li > ol > li {
+      width: 100%;
+}
+
+ul.profile.thumbs.detailed > li > ol > li.photo {
+    position: relative;  
+}
+
+ul.profile.thumbs.detailed > li > ol > li.photo > div {
+    width: 100%;  
+    position: absolute;
+    bottom: 5px; 
+    background: url('../images/bknd-black-transparant.png');  
+    height: 20px;
+    display: none;
+}
+
+ul.profile.thumbs.detailed > li > ol > li.photo > div > ul.options {
+    width: 100%;
+}
+
+ul.profile.thumbs.detailed > li > ol > li.photo:hover > div  {
+    display: block;
+    clear: both;
+}
+
+
+ul.profile.thumbs.detailed > li > ol > li.photo > div > ul.options > li {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 33%;
+    text-align: right;
+}
+
+
+ul.profile.thumbs.detailed > li > ol > li.photo > div > ul.options li a {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    padding-right: 3px;
+}
+
+
+ul.profile.thumbs.detailed > li > ol > li.details div.bio {
+    color:#4ea0d8;  
+    line-height: 16px;
+    margin-top: 5px;
+    height: 32px;
+    overflow: hidden;
+    
+}
+
+
+/****************************************
+** Profiles Styles - Thumbs Detailed List
+****************************************/
+
+ul.profile.thumbs.detailed.list > li {
+    clear: both;
+    width: 95%;
+    height: auto;
+    padding: 15px;
+    background: #f8f8f8;
+    margin-bottom: 5px;
+    border: none;
+    border-top: dotted 1px #e7e7e7;
+    border-radius: 0;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li {
+    float: left;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.photo {
+    width: 80px;
+    height: 80px;
+    min-height: 80px;   
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.photo:hover div {
+    display: none;  
+}
+
+
+ul.profile.thumbs.detailed.list > li > ol > li.details {
+    position: relative;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 80%;
+    background: #000;  
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div {
+    position: absolute; 
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.name {
+    top: 0px;   
+    width: 100%;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.name span {
+    display: inline-block; 
+    position: absolute;  
+    float: left;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.name span.age {
+    left: 80px;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.name span.date {
+    left: 200px;    
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.name ul.options {
+    display: inline-block; 
+    position: absolute;  
+    left: 330px;
+    margin-top: -5px;
+}
+
+ul.profile.thumbs.detailed.list > li > ol > li.details div.bio {
+    top: 18px; 
+    height: auto;
+    overflow: visible;
+}
+
+/****************************************
+** Profiles Styles - List Tiny
+****************************************/
+
+ul.profile.list-tiny > li  {
+    margin-bottom: 10px;    
+}
+
+ul.profile.list-tiny > li > ol > li.photo { 
+    width: 18%;
+    margin-right: 2%;
+}
+
+ul.profile.list-tiny > li > ol > li.details {
+    width: 75%; 
+}
+
+ul.profile.list-tiny > li > ol > li.details div.bio {
+    font-size: 11px;
+    line-height: 14px;  
+}
+
+
+/****************************************
+** Profiles Styles - Agency
+****************************************/
+
+ul.profile.agency > li  {
+    width: 100%;
+    clear: both !important;
+    margin: 0;
+}
+
+ul.profile.agency > li > ol {
+    width: 100%;  
+}
+
+
+ul.profile.agency > li > ol > li.details {
+    width: 27%; 
+    padding-left: 1%;
+}
+
+ul.profile.agency > li > ol > li.details  div.bio {
+    color: #0078ca;  
+}
+
+
+ul.profile.agency > li > ol > li.details  div.name {
+    font-weight: bold;  
+}
+
+ul.profile.agency > li > ol > li > ul.options > li {
+    clear: both;
+    list-style: none;
+}
+
+
+/****************************************
+** Profiles Styles - Options
+****************************************/
+
+
+ul.options li {
+    padding-right: 5px; 
+}
+
+ul.options li a {
+    text-align: left;   
+    padding-left: 19px;
+    font-size: 9px !important;
+}
+
+ul.options li.view  {
+    background: url('../images/view-icon.png') 3px 5px no-repeat;
+}
+
+ul.options li.love  {
+    background: url('../images/love-icon.png') 3px 5px no-repeat;
+}
+ul.options li.like  {
+    background: url('../images/like.png') 3px 5px no-repeat;
+}
+
+ul.options.white li.view  {
+    background: url('../images/view-icon-white.png') 3px 5px no-repeat;
+}
+
+ul.options.white li.love  {
+    background: url('../images/love-icon-white.png') 3px 5px no-repeat;
+}
+ul.options.white li.like  {
+    background: url('../images/like-icon-white.png') 3px 5px no-repeat;
+}
+
+/****************************************
+** Social Icons
+****************************************/
+

@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+
+div.two-column-multi {
+
+}
+
+div.two-column-multi div.column.first {
+	margin-left: 0;
+}
+
+div.two-column-multi div.column.long div.content{
+	min-height: 670px;
+}
+
+
+div.two-column-multi div.column {
+	float: left;
+	width: 33%;
+	margin-left: 9px;
+	background: url('/_templates/frontend/images/two-column-multi-small-top.gif') no-repeat #fff top center;
+	padding: 0px;
+}
+
+div.two-column-multi div.column.first {
+	width: 65%;
+}
+
+div.two-column-multi div.column div.content {
+	background: url('/_templates/frontend/images/two-column-multi-small-bottom.gif') no-repeat bottom center;
+	min-height: 99%;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	
+}
+
+div.two-column-layout {
+
+}
+
+div.two-column-multi div.column h2 {
+	text-align: left;
+}
+
+div.two-column-multi div.column.first { 
+	background: url('/_templates/frontend/images/two-column-multi-long-top.gif') no-repeat #fff top center;
+}
+
+div.two-column-multi div.column.first div.content {
+	background: url('/_templates/frontend/images/two-column-multi-long-bottom.gif') no-repeat bottom center;
+	min-height: 97%;
+}

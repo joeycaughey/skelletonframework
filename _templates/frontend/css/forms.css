@@ -1,0 +1,378 @@
+@CHARSET "UTF-8";
+
+button.go_button {
+	background: url('../images/icons/arrow-right.gif') no-repeat;
+	
+}
+
+form{
+	border-top: none;
+	margin: 0;
+	padding: 0;
+}
+
+form fieldset {
+	border: 0;	
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	-moz-border-radius: 10px;
+}
+
+
+form fieldset legend {
+	
+	background: #333;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	width: 400px;
+	
+	-moz-border-radius: 5px;
+}
+
+form  h1 {
+	margin: 0;
+	padding: 10px;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #fff;
+	background: #5c5c5c;
+	margin-bottom: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px; 
+    -webkit-border-bottom-right-radius: 10px; 
+    margin-left: -1px;
+    margin-right: -1px;;
+}
+
+
+form  h1.red {
+	background: #bc4a4a;
+}
+
+
+form  fieldset h1 {
+	bordeR: none;
+	margin: 0;
+	padding: 5px;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #fff;
+	background: #174685;
+	margin-bottom: 10px;
+	margin-left: -5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+}
+
+
+form  h1 button {
+	float: right;
+	font-size: 10px;
+	margin-top: -2px;
+
+	background: #fff;
+	margin-lefT: 5px;
+	padding: 2px;
+	padding-left: 8px;
+	padding-right: 10px;
+	color: #13a438;
+	cursor: pointer;	
+}
+
+form h1 a:link {
+	color: #ccc;
+}
+
+form h1 a:hover {
+	color: #aaa;	
+}
+
+form h1 button:hover, form h1 button.on {
+	background: #aaa;
+}	
+	
+form fieldset ol h1 {
+	width: 92%;	
+}
+
+form fieldset h1.open {
+	background: url('/images/arrow_open.gif') no-repeat;
+	background-position: 0px 11px;	
+}
+
+form fieldset ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+form fieldset ol {
+	padding: 5px;	
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+form fieldset ol.group {
+	padding: 15px;
+	padding-left: 20px;
+	background: #eee;
+	-moz-border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+form fieldset ol.group h3 {
+	margin: 0;	
+}
+
+
+form fieldset h3 {		
+	font-size: 11px;
+	color: #333;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+form fieldset ol.single-column {
+	margin: auto;
+	width: 72%;
+}
+
+form fieldset ol.single-short-column {
+	margin: auto;
+	width: 48%;
+}
+
+
+
+form fieldset ol.column-one {
+	float: left;
+	width: 47%;
+	margin-right: 2%;
+}
+
+form fieldset ol.column-two {
+	float: right;
+	width: 47%;
+}
+
+
+form fieldset.offset-right ol.column-one {
+	float: left;
+	width: 62%;
+	margin-right: 2%;
+}
+
+form fieldset.offset-right ol.column-two {
+	float: right;
+	width: 32%;
+}
+
+form fieldset.offset-left ol.column-one {
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+}
+
+form fieldset.offset-left ol.column-two {
+	float: right;
+	width: 71%;
+}
+    
+form fieldset ol li {
+	position: relative;
+	padding: 5px 0;
+	margin: 0;
+	clear: both;
+	
+}
+
+
+form fieldset ol li.high {
+	height: 50px;
+}
+
+form fieldset ol li.checkbox input {
+	float: left;	
+	clear: both;
+}
+
+form fieldset ol li.checkbox label {
+	width: 90%;
+	margin-top: -3px;
+	margin-left: 5px;
+	text-transform: none;
+	font-size: 9px;
+}	
+
+
+
+form fieldset ol li.twoline label {
+	float: none;
+	width: 100%;
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+
+form fieldset ol li.twoline textarea {
+	width: 90%;	
+}
+
+form.regularlists fieldset ol {
+	list-style: circle;
+	background: none;
+	border: none;
+	margin-top: 5px;
+	margin-left: 20px;	
+}
+
+
+label {
+	font-family: Avenir LT Std, Helvetica, Arial;
+	/*font-family: 'Standard 07_51';*/
+	font-size: 12px;
+ 	display: block;
+    padding: 6px 15px 17px 15px;
+    height: 14px;
+    float: left; 
+    width: 110px;
+	text-align: right;
+    line-height: 20px;
+}
+
+select {
+	min-width: 150px;	
+}	
+
+label.twoline {
+	margin-top: -8px;	
+}
+
+
+form fieldset ol li.high {
+	height: 50px;
+}
+
+fieldset ol li.checkboxes label {
+	width: auto;
+	clear: both;
+}
+
+
+fieldset ol li.checkboxes input {
+	width: auto;	
+	margin-top: 1px;
+	margin-right: 10px;
+}
+
+fieldset ol li.checkboxes p, fieldset ol li.radio p {
+	font-weight: bold;	
+}
+
+
+fieldset ol li.radio label {
+	width: auto;
+	padding: 5px;
+	
+}
+
+
+fieldset ol li.radio input {
+	width: auto;	
+	margin-top: 1px;
+	margin-right: 10px;
+}
+
+input, textarea {
+	border: solid 1px #959aa2;
+	background: #fff;;
+	padding: 5px;
+
+    color: #666;
+    width: 50%;
+    color: #000;
+    font-size: 14px;
+}
+
+input.short {
+	width: 20%;	
+}
+
+textarea.full {
+	width: 98%;	
+}
+
+input.required {
+	border-left: solid 5px #bc4a4a;	
+}
+
+div.button_holder {
+	padding: 5px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+form fieldset ol div.button_holder {
+	padding-bottom: 0;
+}
+
+
+button {
+	z-index: 100;
+	padding: 2px;
+	background: #0d1218;
+	border: solid 1px #9e9fa1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color:  #fff;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button.go {
+	border: none;
+	background: url('../images/go_button.png') no-repeat;
+	margin: 7px;	
+}
+
+button.go:hover {
+	background: url('../images/go_button.png') no-repeat;
+	opacity: 0.7;	
+}
+
+
+
+h2 button.red {
+	background: #bc4a4a;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #bbbbbb;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+button.fix80 {
+	width: 80%;	
+}
+
+html>body button.fix80 {
+	width: 100%;
+}

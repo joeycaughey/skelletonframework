@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+@import url("forms.css");
+@import url("layouts.css");
+@import url("structure.css");
+@import url("tables-lists.css");
+@import url("mobile.css");
+@import url("buttons-icons.css");
+@import url("../../../modules/socialintegration/_assets/default.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body, td {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0; 
+}
+
+hr {
+    size: 1;    
+}
+
+p.first {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00cdff;
+}
+
+.right {
+    float: right;   
+}
+
+img {
+    border: 0;  
+}
+
+.rounded {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;    
+}
+
+.rounded-3px {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; 
+}
+
+.noborder {
+    border: none !important;    
+}
+
+
+
