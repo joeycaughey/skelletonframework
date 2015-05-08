@@ -3,9 +3,9 @@ global $ModuleBlogModel;
 
 $REMOTE_CONFIG = array(
     "mySQL_hostname" => "localhost",
-    "mySQL_database" => "bigsoul_database",
-    "mySQL_username" => "bigsoul_user",
-    "mySQL_password" => "james12",
+    "mySQL_database" => "",
+    "mySQL_username" => "",
+    "mySQL_password" => "",
 );
 
 $Blog = new FromRemoteDataBase($REMOTE_CONFIG, "tbl_module_blog", "WHERE id = id");
