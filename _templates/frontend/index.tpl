@@ -4,19 +4,19 @@
 <title>{TITLE}</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-<meta name="title" content="Big Soul Productions" />
-<meta name="description" content="Aboriginal owned and operated film and television production company in Canada."> 
-<meta name="keywords" content="movie production, television production, music video, production, aboriginal, toronto, canada, milliken, big soul, moccasin flats, project one generation"> 
+<meta name="title" content="" />
+<meta name="description" content=""> 
+<meta name="keywords" content=""> 
  
  
 <meta name="author" content="Joey Caughey | Site Mafia Interactive (http://www.sitemafia.com)" />
-<meta name="copyright" content="&copy; Copyright 2012 Big Soul Productions. All Rights Reserved." />
+<meta name="copyright" content="&copy; Copyright 2012 Site Mafia Interactive. All Rights Reserved." />
 
 <meta name="revisit-after" content="3 days" />
 <meta name="rating" content="general" />
 <meta name="robots" content="all" />
 <meta name="distribution" content="global"/>
-<meta name="classification" content="Production Company" />
+<meta name="classification" content="" />
 <meta name="GOOGLEBOT" content="NOARCHIVE" />
 
 <meta name="location" content="Downtown Toronto, GTA, Toronto, Ontario, Canada" />
